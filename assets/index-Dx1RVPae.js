@@ -131,7 +131,7 @@ Error generating stack: `+e.message+`
                         border border-gray-600 rounded-lg\r
                         text-white text-sm focus:outline-nome\r
                         focus:border-primary transition-colors`,placeholder:`your@gmail.com`,required:!0})]}),(0,O.jsxs)(`div`,{className:`mb-6`,children:[(0,O.jsx)(`label`,{htmlfor:`message`,className:`text-white block mb-2 text-sm\r
-                        font-medium`,children:`Email`}),(0,O.jsx)(`textarea`,{id:`message`,className:`w-full px-4 py-2 \r
+                        font-medium`,children:`Message`}),(0,O.jsx)(`textarea`,{id:`message`,className:`w-full px-4 py-2 \r
                         bg-gray-700\r
                         border border-gray-600 rounded-lg\r
                         text-white text-sm focus:outline-nome\r
