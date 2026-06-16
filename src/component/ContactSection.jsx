@@ -105,7 +105,7 @@ const ContactSection = () => {
                         <label htmlfor="message"
                         className='text-white block mb-2 text-sm
                         font-medium'>
-                            Email
+                            Message
                         </label>
                         <textarea  id='message'
                         className='w-full px-4 py-2 
