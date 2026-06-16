@@ -61,16 +61,18 @@ const HeroSection = () => {
                             transition-all ease-in-out flex justify-center
                              items-center relative'>
                                <div className='svg-container'>
-                                    <Download size={18}
-                                    className='text-primary'/>
+                                    {/* <Download size={18} */}
+                                    {/* className='text-primary'/> */}
                                       <div className='download-loader
                                        text-white hidden'>
                                     </div> 
                                 </div>
                                  <a href="/resume.pdf"
-                                download="resume.pdf"
+                                 target="_blank"
+                                   onClick={() =>
+                                   window.open(`${import.meta.env.BASE_URL}resume.pdf`, "_blank")}
                                 className='pl-2 text-primary'>
-                                Download Resume 
+                                Open Resume 
                                 </a>
                            </div> 
                         </button>
